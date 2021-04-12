@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HEALTH+</title>
+	<link rel="stylesheet" href="css/text.css">
+	<link rel="stylesheet" href="css/Header.css">
+	<link rel="icon" href="Resources/Health+_Logo.png">
+	<script type="text/javascript" src="Js/Clock.js"></script>
+	<style>
+		#kuning{
+			background-color: #edf102;
+			height: 12em;
+			width: 100%;
+			z-index: -1;
+		}
+		#pemisah{
+			background-color: #edf102;
+			height: 0.15em;
+			width: 30%;
+			z-index: -1;
+		}
+	</style>
+</head>
+<body>
+	<div id="Wrapper">
+		<div class="Header_Wrapper" style="position: fixed; width: 100%; z-index: +99">
+			<div class="Header">
+				<a href="index.html">
+				<div id="left">
+					<img src="Resources/Health+_Logo.png" style="width: 40px; height: auto;">
+						<div id="judul">
+							Health+
+						</div>
+				</div>	
+				</a>
+				<a href="">
+				<div id="right">
+					<script type="text/javascript">startTime();</script>
+				</div>
+				</a>
+			</div>
+			<div id="f2"></div>
+			<div id="gradient"></div>	
+		</div>
+	</div>
+	<div>
+		<img src="Resources/Health+_Logo.png" style="position: absolute; width: 9em; height: auto; margin-top: 6em; margin-left: 50%; left: -4.5em">
+	</div>
+	<div id="tulisan" style="width: 20em; position: absolute; margin-top: 11em; margin-left: 50%; left: -10em; text-align: center;">
+		Insert Your Data
+	</div>
+	<div>
+		<form action="Home.html" style="padding-top: 19em; padding-left: 30%; padding-right: 30%">
+			<input type="text" name="full_name" placeholder="Gender">
+			<br>
+			<input type="text" name="full_name" placeholder="Date of Birth">
+			<br>
+			<input type="text" name="full_name" placeholder="Weight">
+			<br>
+			<input type="text" name="full_name" placeholder="Height">
+			<br>
+			<input type="text" name="full_name" placeholder="History of Disease">
+			<br>
+			<input type="text" name="full_name" placeholder="Area of Living">
+			<br>
+			<br>
+			<input type="submit" name="create_acc" value="Save">
+		</form>
+	</div>
+</body>
+</html>
