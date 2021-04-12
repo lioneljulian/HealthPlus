@@ -16,6 +16,7 @@ function startTime() {
   day + ", "+dd +" "+ MM+" "+YYYY+"<br>"+h + ":" + m + ":" + s;
   var t = setTimeout(startTime, 500);
 }
+
 function checkZero(i) {
   if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
   return i;
@@ -24,19 +25,11 @@ function checkZero(i) {
 function checkMonth(x)
 {
   var arr = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-  var i = 0;
-  for (var i = 0; i == x; i++) {
-    
-  }
-  return arr[i];
+  return arr[x];
 }
 
 function checkDay(x)
 {
   var arr = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
-  var i = 0;
-  for (var i = 0; i == x; i++) {
-    
-  }
-  return arr[i];
+  return arr[x];
 }
