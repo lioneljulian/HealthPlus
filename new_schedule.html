@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HEALTH+</title>
+	<link rel="stylesheet" href="css/text.css">
+	<link rel="stylesheet" href="css/Header.css">
+	<link rel="icon" href="Resources/Health+_Logo.png">
+	<script type="text/javascript" src="Js/Clock.js"></script>
+	<style>
+		#kuning{
+			background-color: #edf102;
+			height: 12em;
+			width: 100%;
+			z-index: -1;
+		}
+		#pemisah{
+			background-color: #edf102;
+			height: 0.15em;
+			width: 30%;
+			z-index: -1;
+		}
+	</style>
+</head>
+<body>
+	<div id="Wrapper">
+		<div class="Header_Wrapper" style="position: fixed; width: 100%; z-index: +999999">
+			<div class="Header">
+				<a href="Home.html">
+				<div id="left">
+					<img src="Resources/Health+_Logo.png" style="width: 40px; height: auto;">
+						<div id="judul">
+							Health+
+						</div>
+				</div>	
+				</a>
+				<a href="">
+				<div id="right">
+					<script type="text/javascript">startTime();</script>
+				</div>
+				</a>
+			</div>
+			<div id="f2"></div>
+			<div id="gradient"></div>	
+		</div>
+	</div>
+	<div id="kuning">
+		<div id="judul_menu">
+			Add New Schedule
+		</div>
+	</div>
+	<br>
+	<form style="padding-left: 5%; padding-right: 60%" action="calendar.html">
+		<input type="text" name="title_schedule" placeholder="Enter title">
+		<br>
+		<input type = "text" onfocus = "(this.type = 'date')" name="date_schedule" placeholder = "Enter date">
+		<br>
+		<input type = "text" onfocus = "(this.type = 'time')" name="time_schedule" placeholder = "Pick time">
+		<br>
+		<input type="text" name="note_schedule" placeholder="Add note">
+		<br>
+		<br>
+		<input type="submit" name="save_schedule" style="left: 50%; position: absolute; margin-left: -3.5em" value="Save">
+	</form>
+</body>
+</html>

@@ -1,0 +1,158 @@
+body {
+	font-size: 100%;
+}
+#tombol {
+	width: 7em;
+	background-color: #edf102;
+	padding: 0.25em;
+	font-family: sans-serif; 
+	font-size: 2em;
+	color: #808200;
+  	border: none;
+  	border-radius: 0.75em;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	margin: 0.25em 0.25em;
+  	cursor: pointer;
+}
+input[type=submit], select {
+	width: 7em;
+	background-color: #edf102;
+	padding: 0.25em;
+	font-family: sans-serif; 
+	font-size: 2em;
+	color: #808200;
+  	border: none;
+  	border-radius: 0.75em;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	margin: 0.25em 0.25em;
+  	cursor: pointer;
+}
+input[type=text], select{
+	width: 100%;
+	border: none;
+	padding: 0.20em;
+	border-bottom: 0.15em solid #edf102;
+  	background-color: #ffffff;
+	font-family: sans-serif; 
+	font-size: 1.5em;
+	color: #6e6e6e;
+	display: inline-block;
+  	margin: 0.25em 0.25em;
+  	cursor: text;
+}
+input[type=Search], select{
+	width: 100%;
+	border: none;
+	padding: 0.20em;
+  	background-color: #F2F2F2;
+	font-family: sans-serif; 
+	font-size: 1.5em;
+	color: #6e6e6e;
+	display: inline-block;
+  	margin: 0.25em 0.25em;
+  	cursor: text;
+}
+input[type=E-mail], select{
+	width: 100%;
+	border: none;
+	padding: 0.20em;
+	border-bottom: 0.15em solid #edf102;
+  	background-color: #ffffff;
+	font-family: sans-serif; 
+	font-size: 1.5em;
+	color: #6e6e6e;
+	display: inline-block;
+  	margin: 0.25em 0.25em;
+  	cursor: text;
+}
+input[type=password], select{
+	width: 100%;
+	border: none;
+	padding: 0.20em;
+	border-bottom: 0.15em solid #edf102;
+  	background-color: #ffffff;
+	font-family: sans-serif; 
+	font-size: 1.5em;
+	color: #6e6e6e;
+	display: inline-block;
+  	margin: 0.25em 0.25em;
+  	cursor: text;
+}
+input[type=date], select{
+	width: 100%;
+	border: none;
+	padding: 0.20em;
+	border-bottom: 0.15em solid #edf102;
+  	background-color: #ffffff;
+	font-family: sans-serif; 
+	font-size: 1.5em;
+	color: #6e6e6e;
+	display: inline-block;
+  	margin: 0.25em 0.25em;
+  	cursor: text;
+}
+input[type=time], select{
+	width: 100%;
+	border: none;
+	padding: 0.20em;
+	border-bottom: 0.15em solid #edf102;
+  	background-color: #ffffff;
+	font-family: sans-serif; 
+	font-size: 1.5em;
+	color: #6e6e6e;
+	display: inline-block;
+  	margin: 0.25em 0.25em;
+  	cursor: text;
+}
+#judul_menu {
+	font-family: "agency fb"; 
+	font-size: 3em;
+	font-weight: bold;
+	color: #808200;
+	padding-top: 2.25em;
+	text-align: center;
+}
+#subjudul {
+	font-family: "calibri"; 
+	font-size: 2em;
+	font-weight: bold;
+	color: #babd01;
+}
+#tombol_kecil {
+	font-family: sans-serif; 
+	font-size: 1em;
+	background-color: #808200;
+	padding: 0.40em;
+	color: #ffffff;
+  	border: none;
+  	border-radius: 0.85em;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	margin: 0.25em 0.25em;
+  	cursor: pointer;
+}
+p {
+	width: 34em;
+	font-family: "calibri";
+	font-size: 1.5em;
+	color: #808200;
+	text-align: justify;
+}
+#tulisan{
+	font-family: "calibri";
+	font-size: 1.5em;
+	color: #808200;
+}
+
+::placeholder{
+	color: lightgrey;
+}
+
+::-ms-input-placeholder{
+	color: lightgrey;
+}
